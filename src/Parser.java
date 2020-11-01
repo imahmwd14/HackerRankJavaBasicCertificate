@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Parser {
+public class Parser {
 
     public boolean isBalanced(String next) {
         if (next.trim().isEmpty()) return true;
